@@ -14,3 +14,9 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('Authentication.register');
 });
+Route::get('/studentpage', function () {
+    return view('Authentication.frontend-pages.studentRegistration');
+});
+Route::get('/studentDashboard', function () {
+    return view('Dashboard.studentDashboard');
+});
